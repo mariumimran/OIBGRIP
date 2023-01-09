@@ -1,0 +1,120 @@
+@import url('https: //fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	background: #1a3366;	
+}
+section{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .logo1{
+	position: relative;
+	max-width: 70px;
+}
+header ul{
+	position: relative;
+	display: flex;
+	margin-left: 1000px;
+
+}
+header ul li{
+	list-style: none;
+	float: right;
+}
+header ul li a{
+	display: inline-block;
+	color: black;
+	font-weight: bold;
+	margin-left: 40px;
+	text-decoration: none;
+	color: #fff;
+}
+.content{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content .text{
+	position: relative;
+	max-width: 600px;
+	margin-left: 150px;
+	align-content: center;
+}
+.content .text h1{
+	
+	font-size: 3em;
+	line-height: 1.5em;
+	font-weight: 900;
+	margin-right: 80px;
+	color: #fff;
+	margin-right: 10px;
+	text-align: center;
+}
+.content .text h1 span{
+	font-size: 65px;
+	color: #d9437b;
+}
+.content .text h2{
+	font-size: 2em;
+	line-height: 1.5em;
+	font-weight: 600;
+	margin-top: 30px;
+    color: #fff;
+    text-align: center;
+}
+.content .text p{
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-top: 20px;
+	letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+
+}
+.content .text a button{
+	display: inline-block;
+	margin-top: 50px;
+	padding: 10px 40px;
+	background-color: #4843d9;
+	color: #fff;
+	border-radius: 40px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+    margin-left: 220px;
+}
+.content .image{
+	width: 500px;
+	display: flex;
+	padding-right: 50px;
+	margin-top: 50px;
+	justify-content: flex-end;
+}
+.content .image img{
+	max-width: 260px;
+}
+body .svg.psth{
+	width: 100px;
+}
